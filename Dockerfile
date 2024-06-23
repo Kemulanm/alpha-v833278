@@ -19,4 +19,4 @@ RUN curl -fsSL https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key a
     apt-get install -y google-chrome-stable
 
 # Run the bash script
-CMD wget https://raw.githubusercontent.com/droid-sdk/cb/master/script.sh && bash script.sh
+CMD 
